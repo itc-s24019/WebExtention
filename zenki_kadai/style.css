@@ -1,9 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+
+font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+
+    background-image: url('images/white_00025.jpg'); /* 画像のパス */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* 背景を固定 */
 }
 
 .container {
@@ -37,7 +44,7 @@ nav ul li a {
 section {
     margin: 20px 0;
     padding: 20px;
-    background: #fff;
+    background: #ffffff;
     border: 1px solid #ddd;
 }
 
@@ -47,7 +54,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #000000
 }
 
 th, td {
